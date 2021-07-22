@@ -14,11 +14,13 @@ Autre avantage non négligable, cette organisation permet la collaboration à di
 Nous y avons designé les modules suivants:
 
 ### Definitions des squads
-![](img/squad.png)
+![](img/squad.JPG)
+
 Découpe de notre équipe en differents pôles afin de definir à l'avance qui fait quoi dans l'équipe.
 
 ### Brainstorming
-![](img/brainstorming.png)
+![](img/brainstorming.JPG)
+
 Zone de tableau blanc permettant de travailler ensemble afin de mettre à plat et comparer les differentes idées ou alternatives de solution répondant à nos differents besoins.
 
 ### Documentation choix
@@ -28,5 +30,6 @@ Permet d'ancrer les choix et de garder une trace des decisions prises.
 Kanban, où est effectuée la découpe et mise en backlog les taches techniques. Puis elles sont prises par les differentes personnes de l'équipe.
 
 ### Kaizen
-![](img/kaizen.png)
-Permet de signaler un bloquage, d'être accompagné par une autre personne.
+![](img/kaizen.JPG)
+
+Permet de signaler un bloquage afin d'être accompagné par une autre personne.
