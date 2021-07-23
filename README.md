@@ -1,9 +1,18 @@
 # Projet-Annuel-G1-Star-Pizza
 
-# Management
+## Management
+Liste des differents outils et methodes utilisés pour la partie management et gestion de projet.
 
-# Architecture
+[Cliquez ici.](https://github.com/Groupe1CSIA2021/Projet-Annuel-G1/tree/main/Management)
 
-# Model
+## Infrastructure
+Schema d'infrastructure et explications liées à cette derniere.
 
-# Start the project
+[Cliquez ici.](https://github.com/Groupe1CSIA2021/Projet-Annuel-G1/tree/main/Infrastructure)
+
+## Model
+Maquette graphique, UI/UX et explications.
+
+[Cliquez ici.](https://github.com/Groupe1CSIA2021/Projet-Annuel-G1/tree/main/Model)
+
+## Start the project
