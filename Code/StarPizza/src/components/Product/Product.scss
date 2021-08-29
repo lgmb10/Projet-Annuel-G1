@@ -1,0 +1,21 @@
+@import "../../styles/elements/colors";
+
+product-container {
+    border-radius: 20px;
+    border: 1px solid $GREEN;
+    background-color: $LIGHT_GREY;
+    :hover {
+        border: 5px solid $GREEN;
+    }
+
+    .title {
+        color: $BLACK;
+    }
+
+    .price {
+        position: absolute;
+        bottom: 1px;
+        background-color: $GREEN;
+        color: $WHITE;
+    }
+}
