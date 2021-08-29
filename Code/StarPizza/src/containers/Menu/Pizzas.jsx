@@ -7,8 +7,13 @@ import { Menu } from "../../components/Menu/Menu";
 export const Pizzas = () => {
   return (
     <Menu backgroundImage={BgPizza} title="NOS PIZZAS">
-      {PIZZAS.map((pizza) => (
-        <Product price={pizza.price} image={pizza.image} pizza={pizza.title} />
+      {PIZZAS.map((pizza, index) => (
+        <Product
+          key={index}
+          price={pizza.price}
+          image={pizza.image}
+          pizza={pizza.title}
+        />
       ))}
     </Menu>
   );
