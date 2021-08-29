@@ -1,0 +1,10 @@
+@import "../../styles/elements/colors";
+
+.button-container {
+  width: 750px;
+  height: 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  color: $WHITE;
+}

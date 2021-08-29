@@ -1,0 +1,21 @@
+@import "./colors";
+
+.l-font-size {
+  font-size: 35px;
+}
+
+.xl-font-size {
+  font-size: 50px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.purple {
+  color: $PURPLE;
+}
