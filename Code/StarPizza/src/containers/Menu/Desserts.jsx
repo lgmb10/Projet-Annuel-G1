@@ -7,8 +7,9 @@ import { Menu } from "../../components/Menu/Menu";
 export const Desserts = () => {
   return (
     <Menu backgroundImage={BgDessert} title="NOS DESSERTS">
-      {DESSERTS.map((dessert) => (
+      {DESSERTS.map((dessert, index) => (
         <Product
+          key={index}
           price={dessert.price}
           image={dessert.image}
           title={dessert.title}

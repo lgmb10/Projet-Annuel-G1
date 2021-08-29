@@ -7,8 +7,9 @@ import { Menu } from "../../components/Menu/Menu";
 export const TexMex = () => {
   return (
     <Menu backgroundImage={BgTexmex} title="NOS TEX-MEX">
-      {TEX_MEX.map((texmex) => (
+      {TEX_MEX.map((texmex, index) => (
         <Product
+          key={index}
           price={texmex.price}
           image={texmex.image}
           title={texmex.title}
