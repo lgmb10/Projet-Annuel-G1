@@ -1,0 +1,19 @@
+@import '../../styles/elements/colors';
+
+.product-container {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border: 2px solid $GREEN;
+  border-radius: 100%;
+
+  .price {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    background-color: $GREEN;
+    top: 90%;
+    color: white;
+    border-radius: 100px;
+  }
+}

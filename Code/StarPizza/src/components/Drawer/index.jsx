@@ -26,7 +26,7 @@ const DRAWER_ELEMENTS = [
   },
 ];
 
-export const DrawerElements = ({ image, title }) => {
+const DrawerElements = ({ image, title }) => {
   return (
     <div className="flex-column jcc aic mt-3">
       <img src={image} />
