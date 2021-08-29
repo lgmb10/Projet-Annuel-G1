@@ -4,7 +4,7 @@ import "./Drawer.scss";
 import LogoStarPizza from "../../assets/logo-star-pizza.png";
 import PizzaOffre from "../../assets/pizza-offres.png";
 import NosPizzas from "../../assets/nos-pizzas.png";
-import TexMex from "../../assets/tex-mex.png";
+import TexMex from "../../assets/tenders.png";
 import Desserts from "../../assets/desserts.png";
 
 const DRAWER_ELEMENTS = [
@@ -26,7 +26,7 @@ const DRAWER_ELEMENTS = [
   },
 ];
 
-export const DrawerElements = ({ image, title }) => {
+const DrawerElements = ({ image, title }) => {
   return (
     <div className="flex-column jcc aic mt-3">
       <img src={image} />

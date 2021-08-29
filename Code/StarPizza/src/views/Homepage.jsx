@@ -19,7 +19,7 @@ export const Homepage = () => {
         bgColor="#875789"
         image={LogoEfficom}
         title="ÉTUDIANT EFFICOM"
-        onClick={() => history.push("menu")}
+        onClick={() => history.push("order")}
       />
       <HomepageButton bgColor="#55945a" title="CLIENT START PIZZA" />
     </div>

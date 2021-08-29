@@ -2,7 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import { spring, AnimatedSwitch } from "react-router-transition";
 import { Homepage } from "./views/Homepage";
-import { Menu } from "./views/Menu";
+import { Order } from "./views/Order";
 
 function mapStyles(styles) {
   return {
@@ -42,6 +42,6 @@ export const Routes = () => (
     className="route-wrapper"
   >
     <Route exact path="/" component={Homepage} />
-    <Route exact path="/menu" component={Menu} />
+    <Route exact path="/order" component={Order} />
   </AnimatedSwitch>
 );
