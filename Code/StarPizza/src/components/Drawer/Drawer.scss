@@ -1,0 +1,16 @@
+@import "../../styles/elements/colors";
+
+.drawer-container {
+  width: 300px;
+  height: 1920px;
+  border: 1px solid $GREY;
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .logo-star-pizza {
+    margin-top: 175px;
+  }
+}
