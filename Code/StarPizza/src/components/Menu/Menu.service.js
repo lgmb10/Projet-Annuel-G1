@@ -1,4 +1,5 @@
 import Margherita from '../../assets/margherita.png'
+import TexMex from '../../assets/te.'
 
 export const PIZZAS = [
   {
@@ -36,4 +37,9 @@ export const PIZZAS = [
     title: 'Tex MEx',
     price: '11,90',
   },
+]
+
+export const TEX_MEX = [
+
+
 ]
