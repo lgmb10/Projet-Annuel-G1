@@ -1,4 +1,6 @@
 import Margherita from "../../assets/margherita.png";
+import TexMex from "../../assets/tenders.png";
+import Dessert from "../../assets/muffin.png";
 
 export const PIZZAS = [
   {
@@ -38,4 +40,48 @@ export const PIZZAS = [
   },
 ];
 
-export const TEX_MEX = [];
+export const TEX_MEX = [
+  {
+    image: TexMex,
+    title: "tenders",
+    price: "8,90",
+  },
+  {
+    image: TexMex,
+    title: "wings",
+    price: "7,90",
+  },
+  {
+    image: TexMex,
+    title: "crispy-cheese",
+    price: "5,90",
+  },
+  {
+    image: TexMex,
+    title: "ognion rings",
+    price: "6,90",
+  },
+];
+
+export const DESSERTS = [
+  {
+    image: Dessert,
+    title: "muffin",
+    price: "6",
+  },
+  {
+    image: Dessert,
+    title: "Tiramisu",
+    price: "6",
+  },
+  {
+    image: Dessert,
+    title: "Fondant au chocolat",
+    price: "6",
+  },
+  {
+    image: Dessert,
+    title: "Brownie",
+    price: "6",
+  },
+];

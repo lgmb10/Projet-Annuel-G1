@@ -1,15 +1,15 @@
 import React from "react";
 import { Drawer } from "../components/Drawer";
-import { Menu } from "../components/Menu/Menu";
-import { Product } from "../components/Products/Products";
 import { Pizzas } from "../containers/Menu/Pizzas";
-import BgPizza from "../assets/bg-pizza.png";
+import { TexMex } from "../containers/Menu/TexMex";
+import { Desserts } from "../containers/Menu/Desserts";
 
 export const Order = () => {
   return (
     <div className="flex">
       <Drawer />
-      <Pizzas />
+      {/* <TexMex /> */}
+      <Desserts />
     </div>
   );
 };

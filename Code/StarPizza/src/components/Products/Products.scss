@@ -1,4 +1,4 @@
-@import '../../styles/elements/colors';
+@import "../../styles/elements/colors";
 
 .product-container {
   position: relative;
@@ -15,5 +15,11 @@
     top: 90%;
     color: white;
     border-radius: 100px;
+  }
+
+  .adapt-img {
+    max-width: 220px;
+    max-height: 140px;
+    object-fit: cover;
   }
 }
