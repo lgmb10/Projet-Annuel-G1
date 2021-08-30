@@ -346,6 +346,11 @@
   "resolved" "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
   "version" "0.4.0"
 
+"atom@^1.4.1":
+  "integrity" "sha512-FpdehYLT2I17Pk7jVjdr7gDbARljF/YzMPdaKqkXgB8hinM5rz+zdKnw4hvf/mLVVVezd4+xAsVvlL6mW6km+Q=="
+  "resolved" "https://registry.npmjs.org/atom/-/atom-1.4.1.tgz"
+  "version" "1.4.1"
+
 "aws-sign2@~0.7.0":
   "integrity" "sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg="
   "resolved" "https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz"

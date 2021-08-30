@@ -16,8 +16,6 @@ export const OrderInfo = ({ price, children }) => {
   );
 };
 
-// OrderInfo.defaultProps = {
-//   children: "Aucun article",
-// };
-
-// export default OrderInfo;
+OrderInfo.defaultProps = {
+  children: "Aucun article",
+};
