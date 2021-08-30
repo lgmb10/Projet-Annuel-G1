@@ -9,7 +9,7 @@ export const OrderInfo = ({ price, children }) => {
       <div className="order-container">
         {children}
         <button className="button">
-          <p className="l-font-size bold">Total :{price}€</p>
+          <p className="l-font-size bold">Total : {price}€</p>
         </button>
       </div>
     </div>
@@ -17,5 +17,6 @@ export const OrderInfo = ({ price, children }) => {
 };
 
 OrderInfo.defaultProps = {
-  children: "Aucun article",
+  children: "Aucun article sélectionné",
+  price: "--",
 };

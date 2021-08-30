@@ -13,7 +13,7 @@ export const Pizzas = () => {
           key={index}
           price={pizza.price}
           image={pizza.image}
-          pizza={pizza.title}
+          title={pizza.title}
         />
       ))}
     </Menu>

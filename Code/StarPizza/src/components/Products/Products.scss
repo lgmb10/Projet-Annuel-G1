@@ -4,8 +4,9 @@
   position: relative;
   width: 220px;
   height: 220px;
-  border: 2px solid $GREEN;
-  border-radius: 100%;
+  border: 1px solid $GREEN;
+  border-radius: 50%;
+  text-transform: uppercase;
 
   .price {
     position: absolute;
@@ -21,5 +22,9 @@
     max-width: 220px;
     max-height: 140px;
     object-fit: cover;
+  }
+
+  .title {
+    margin: 5px 0 10px;
   }
 }
