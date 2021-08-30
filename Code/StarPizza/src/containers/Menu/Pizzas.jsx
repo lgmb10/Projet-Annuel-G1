@@ -2,6 +2,7 @@ import React from "react";
 import { PIZZAS } from "./Menu.service";
 import BgPizza from "../../assets/bg-pizza.png";
 import { Product } from "../../components/Products/Products";
+import { OrderCard } from "../../components/OrderCard/OrderCard";
 import { Menu } from "../../components/Menu/Menu";
 
 export const Pizzas = () => {
