@@ -1,0 +1,9 @@
+.card {
+    :nth-child(2n) {
+        margin-top: 0;
+    }
+    :nth-child(2n + 1) {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+}

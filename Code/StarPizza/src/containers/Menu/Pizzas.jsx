@@ -1,10 +1,17 @@
 import React from "react";
+import { atom, useAtom } from "jotai";
+
 import { PIZZAS } from "./Menu.service";
-import BgPizza from "../../assets/bg-pizza.png";
+
 import { Product } from "../../components/Products/Products";
 import { Menu } from "../../components/Menu/Menu";
 
+import BgPizza from "../../assets/bg-pizza.png";
+
+export const totalPriceAtom = atom(null);
+
 export const Pizzas = () => {
+  const [price, setPrice] = useAtom(totalPriceAtom);
   return (
     <Menu backgroundImage={BgPizza} title="NOS PIZZAS">
       {PIZZAS.map((pizza, index) => (
@@ -12,7 +19,10 @@ export const Pizzas = () => {
           key={index}
           price={pizza.price}
           image={pizza.image}
-          pizza={pizza.title}
+          title={pizza.title}
+          onClick={() => {
+            setPrice(price + pizza.price);
+          }}
         />
       ))}
     </Menu>
