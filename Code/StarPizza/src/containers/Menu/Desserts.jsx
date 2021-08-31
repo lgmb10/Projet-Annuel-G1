@@ -10,7 +10,6 @@ import BgDessert from "../../assets/bg-dessert.png";
 
 export const Desserts = () => {
   const [price, setPrice] = useAtom(totalPriceAtom);
-
   return (
     <Menu backgroundImage={BgDessert} title="NOS DESSERTS">
       {DESSERTS.map((dessert, index) => (
@@ -20,7 +19,7 @@ export const Desserts = () => {
           image={dessert.image}
           title={dessert.title}
           onClick={() => {
-            setPrice(price + dessert.price);
+            setPrice(price + dessert.price + `\n`);
           }}
         />
       ))}

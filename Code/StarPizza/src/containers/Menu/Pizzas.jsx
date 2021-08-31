@@ -9,9 +9,11 @@ import { Menu } from "../../components/Menu/Menu";
 import BgPizza from "../../assets/bg-pizza.png";
 
 export const totalPriceAtom = atom(null);
+export const totalProductsAtom = atom("");
 
 export const Pizzas = () => {
   const [price, setPrice] = useAtom(totalPriceAtom);
+  const [product, setProduct] = useAtom(totalProductsAtom);
   return (
     <Menu backgroundImage={BgPizza} title="NOS PIZZAS">
       {PIZZAS.map((pizza, index) => (
@@ -22,6 +24,7 @@ export const Pizzas = () => {
           title={pizza.title}
           onClick={() => {
             setPrice(price + pizza.price);
+            setProduct(product + pizza.title);
           }}
         />
       ))}

@@ -3,9 +3,7 @@ import { Route } from "react-router-dom";
 import { spring, AnimatedSwitch } from "react-router-transition";
 import { Homepage } from "./views/Homepage";
 import { Order } from "./views/Order";
-import { Pizzas } from "./containers/Menu/Pizzas";
-import { TexMex } from "./containers/Menu/TexMex";
-import { Desserts } from "./containers/Menu/Desserts";
+import { Invoice } from "./views/Invoice";
 
 function mapStyles(styles) {
   return {
@@ -46,5 +44,6 @@ export const Routes = () => (
   >
     <Route exact path="/" component={Homepage} />
     <Route exact path="/order" component={Order} />
+    <Route exact path="/invoice" component={Invoice} />
   </AnimatedSwitch>
 );
