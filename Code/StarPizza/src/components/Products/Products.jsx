@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Products.scss";
 
-export const Product = ({ price, image, onClick, title, className }) => {
+export const Product = ({ price, image, onClick, title }) => {
   return (
     <>
       <div

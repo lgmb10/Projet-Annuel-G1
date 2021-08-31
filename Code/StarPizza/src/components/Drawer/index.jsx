@@ -10,11 +10,6 @@ import Desserts from "../../assets/desserts.png";
 
 const DRAWER_ELEMENTS = [
   {
-    image: PizzaOffre,
-    title: "OFFRES DU MOMENT",
-    value: "offres",
-  },
-  {
     image: NosPizzas,
     title: "NOS PIZZAS",
     value: "pizzas",
@@ -28,6 +23,11 @@ const DRAWER_ELEMENTS = [
     image: Desserts,
     title: "NOS DESSERTS",
     value: "desserts",
+  },
+  {
+    image: PizzaOffre,
+    title: "OFFRES DU MOMENT",
+    value: "offres",
   },
 ];
 
