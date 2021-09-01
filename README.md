@@ -16,5 +16,3 @@ Schema d'infrastructure et explications liées à cette derniere.
 Maquette graphique, UI/UX et explications.
 
 [Cliquez ici.](https://github.com/Groupe1CSIA2021/Projet-Annuel-G1/tree/main/Model)
-
-## Start the project
