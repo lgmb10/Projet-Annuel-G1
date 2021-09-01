@@ -55,8 +55,8 @@ vSphere Essentials: 500€
 
 Pour mener à bien le projet, l’idéal serait d’avoir :
 
-+	2 développeurs Front-end
-+	2 développeurs Back-end
++	1 développeurs Front-end
++	1 développeurs Back-end
 +	1 architecte système
 +	1 architecte réseau
 +	1 équipe réalisant des audits de cybersecurité
