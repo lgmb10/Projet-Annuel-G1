@@ -76,15 +76,15 @@ Nous avons pensé à un délai de :
 Avec nos calculs on serait sur un total de 70 jours.
 
 Si nous avons une équipe mixte composée de juniors & seniors:
-+	DEV : ((2 x 500)+(2 x 350)) x 60  = 102 000
++	DEV : ((1 x 500)+(1 x 350)) x 40  = 34 000
 +	ARCHI : (2 x 600) x 20 = 24 000
 +	SEC : 2 x 5000 = 10 000
 + CDP : 700 * 60 = 42 000
 
 ## Total
-+ Total Humain: 178 000 €
++ Total Humain: 110 000 €
 + Total Materiel & logiciel: 4900€
-+ Total Projet: 182 900€
++ Total Projet: 114 900€
 # Gestion de projet :
 
 Nous avons besoin de déterminer les indicateurs de pilotage nécessaires, c’est à dire :
